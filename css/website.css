@@ -1,0 +1,504 @@
+*
+{
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.section-1
+{
+	background: url('../fotot/ambienti/lj.jpg');
+	width: 100%;
+	background-size: cover;
+	height: 150vh;
+	background-position: center;
+}
+
+header
+{
+	display: flex;
+	padding: 30px;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: 500ms;
+}
+
+nav
+{
+	margin-right: 70px;
+}
+nav button
+{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: sans-serif;
+	border: none;
+	color: white;
+	background-color: inherit;
+	padding: 10px 8px;
+	transition: 200ms;
+}
+.active
+{
+	border-color: #00B3FF;
+}
+nav button:hover
+{
+	border-color: #00B3FF;
+}
+.logo
+{
+ flex: 1;
+ font-size: 35px;
+ margin-left: 70px;
+ color: white;
+}
+
+.bgc 
+{
+	background: white;
+	padding: 0px;
+}
+.bgc.logo
+{
+	font-size: 5px;
+	color: #000;
+}
+
+.bgc nav button 
+{
+	color: #222;
+}
+
+h1{
+	text-align: center;
+	font-weight: 600;
+    margin: 10px 0;
+}
+h2{
+	color: #F9C262;
+}
+h3{
+	font-family: "Arial Rounded Mt Bold";
+	color: #F9C262;
+}
+p{
+	font-family: corbel;
+	color: #F9C262;
+}
+
+         /*Kreu*/
+.text-box{
+	width: 90%;
+    color: #fff;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text-box h3{
+	font-size: 80px;
+	color: white;
+	opacity: 80%;
+	font-family: monospace;
+}
+.text-box p{
+	font-family: "monotype corsiva";
+	font-size: 20px;
+	color: white;
+	margin: 10px 0 40px;
+}
+.iliria img{
+	float: right;
+	padding: 20px;
+}
+.a{
+	border-radius: 20px;
+	background: #fff3f3;
+	background-position: center;
+	width: 30%;
+	padding-top: 100px;
+	margin-left: 80px;
+	margin-top: 50px;
+}
+
+.a p{
+    margin-bottom: 60px;
+	text-align: center;
+	font-size: 20px;
+}
+.a h3{
+	margin-bottom: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+	
+.iliria1 img{
+	float: left;
+	padding: 20px;
+}
+
+.b{
+	border-radius: 20px;
+	background: #fff3f3;
+	width: 30%;
+	margin-left: 850px;
+	margin-top: 30px;
+	background-position: right;
+	margin-top: 50px;
+	padding-top: 40px;
+}
+.b h3{
+
+	font-size: 30px;
+	text-align: center;
+	margin-top: 100px;
+}
+.b p{
+	padding-top: 30px;
+	text-align:center;
+	font-size: 20px;
+}
+.iliria2 img{
+	float: left;
+}
+.d{
+	width: 30%;
+	border-radius: 20px;
+	background: #fff3f3;
+	margin-left: 500px;
+	background-position: center;
+}
+
+.d h3{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 130px;
+}
+.d p{
+    text-align: center;
+    font-size: 20px;
+}
+.e{
+	margin-left: 600px;
+	width: 40%;
+	background: #fff3f3;
+	text-align: center;
+}
+.e h3{
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 100px;
+	font-size: 30px;
+}
+.e p{
+	text-align: center;
+	font-size: 20px;
+	
+}
+.video1{
+	margin-top: 100px;
+	padding: 80px;
+	margin-left: 200px;
+}
+.adresa1{
+	margin-top: 200px;
+	background-color:  #474e5d;
+}
+.foto1{
+	width: 400px;
+	height: 400px;
+	float: right;
+	position: relative;
+}
+.foto2{
+	width: 400px;
+	height: 400px;
+	float: right;
+	position: relative;
+}
+.foto3{
+	width: 380px;
+	height: 450px;
+	float: left;
+	position: relative;
+}
+.foto4{
+	width: 400px;
+	height: 500px;
+	float: left;
+	position: relative;
+}
+.foto5{
+	width: 440px;
+	height: 350px;
+	position: absolute;
+	left: 20px;
+
+}
+.foto6{
+	width: 350px;
+	height: 350px;
+    position: absolute;
+	right: 20px;
+}
+.foto7{
+	width: 450px;
+	height: 350px;
+	float:left; 
+	margin-left: 50px;
+}
+.adresa1 p{
+	color: white;
+}
+
+          /*Te rejat */
+.iliria4{
+	margin-top: 150px;
+}
+.iliria4 img{
+	float: right;
+	margin-right: 100px;
+}
+.f{
+	margin-top: 50px;
+	padding: 70px;
+	margin-right: 60px;
+}
+.f h3{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 70px;
+}
+.f p{
+	text-align: center;
+	font-size: 20px;
+}
+ .iliria5 img{
+ float: right;
+ margin-left: 150px;
+ }
+ .g{
+	margin-top: 50px;
+	padding: 70px;
+	margin-right: 460px;
+ }
+ .g h3{
+   text-align: center;
+   padding-top: 90px;
+   font-size: 30px;
+ }
+ .g p{
+ 	text-align: center;
+ 	font-size: 20px;
+ }
+
+.video2{
+	margin-top: 170px;
+	padding: 30px;
+	margin-left: 80px;
+}
+.video2 h3{
+	
+	font-size: 35px;
+	padding: 20px;
+	margin-left: 20px;
+
+}
+.video3{
+	margin-left: 100px;
+}
+.video3 h3{
+	font-size: 35px;
+	padding: 20px;
+	margin: 20px;
+	bottom: 50px;
+}
+.foto8{
+	width: 450px;
+	height: 450px;
+}
+.foto9{
+	width: 450px;
+	height: 450px;
+    position: absolute;
+	right: 80px;
+}
+.foto10{
+	height: 340px; 
+	width:400px; 
+	position: absolute;
+	right:50px;
+}
+.foto11{
+	float: right; 
+	height: 340px; 
+	width:400px; 
+	margin-right: 50px;
+}
+
+        /*Foto*/
+#Foto h2{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom:40px;
+}
+#Foto .ambienti img{
+	margin: 10px;
+}
+.foto12{
+	width: 270px;
+	height: 350px;
+	position:relative;
+	left: 50px;
+	border-radius: 10px;
+}
+.foto13{
+	width: 270px;
+	height: 350px;
+	position: relative;
+	left: 55px;
+	border-radius: 10px;
+}
+.foto14{
+	width: 270px;
+	height: 350px;
+	position: relative;
+	left: 60px;
+	border-radius: 10px;
+}
+.foto15{
+	width: 270px;
+	height: 350px;
+	position: relative;
+	left:65px;
+	border-radius: 10px;
+}
+.foto16{
+	width: 350px;
+	height: 300px;
+	border-radius:10px ;
+}
+.foto17{
+	width: 350px;
+	height: 300px;
+	border-radius:10px ;
+}
+.foto18{
+	width: 350px;
+	height: 300px; 
+	border-radius:10px ;
+}
+.foto19{
+	width: 550px;
+	height: 350px;
+	border-radius: 5%;
+}
+.foto20{
+	width: 600px;
+	height: 350px;
+	border-radius: 5%;
+}
+.foto21{
+	width: 260px;
+	height: 400px;
+	border-radius: 10px;
+}
+.foto22{
+	width: 260px;
+	height: 400px;
+	border-radius: 10px;
+}
+.foto23{
+	width: 260px;
+	height: 400px;
+	border-radius: 10px;
+}
+.foto24{
+	width: 260px;
+	height: 400px;
+	border-radius: 10px;
+}
+.foto25{
+	width: 370px;
+	height: 300px;
+	border-radius: 20px;
+}
+.foto26{
+	width: 370px;
+	height: 300px;
+	border-radius: 20px;
+}
+.foto27{
+	width: 370px;
+	height: 300px;
+	border-radius: 20px;
+} 
+.adresa p{
+	color: white;
+}
+/*Kontakt*/
+   .contact{
+  padding: 50px;
+  text-align: center;
+  color: deepyellow;
+}
+.contact h1{
+	text-align: left;
+	font-size: 30px;
+	color: #F9C262;
+}
+
+.contact p{
+	text-align: left;
+	font-size: 20px;
+	color: #F9C262;
+}
+.adresa{
+	background-color:  #474e5d;
+}
+
+
+
+
+
+          /*Rezervim*/
+ #Rezervim h3{
+ 	padding: 50px;
+ 	text-align: center;
+ 	font-size: 40px;
+ }
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
